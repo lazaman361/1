@@ -8,7 +8,7 @@ var MYURL = 'http://localhost/php/';
 define('URL', 'http://localhost/php/');
 define('DB_TYPE', 'mysql');
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'mvc2');
+define('DB_NAME', 'mvc');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 

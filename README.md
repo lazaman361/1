@@ -1,1 +1,1 @@
-An example of website using MVC pattern.
+An example of a very simple website using MVC pattern.

@@ -1,0 +1,1 @@
+<p class='error'>Registration was unsuccessful, please make sure your username is alphanumeric</p>

@@ -1,0 +1,1 @@
+<p class='error'>Username already exists, please choose different username.</p>

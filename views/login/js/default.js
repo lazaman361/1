@@ -1,5 +1,5 @@
 // MYURL, the same from config.php
-var MYURL = 'http://daretodiscover.site90.com/1/';
+var MYURL = 'http://localhost/php/';
 
 // Add action attribute to form.
 $('#login_form').attr('action', MYURL + 'login/run');

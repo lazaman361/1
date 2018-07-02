@@ -62,22 +62,22 @@ class Bootstrap {
             switch ($length){
                 case 5:
                     // Controller->Method(Param1, Param2, Param3)
-                    $this->_controller->$url[1]($url[2],$url[3],$url[4]);
+                    $this->_controller->{$url[1]}($url[2],$url[3],$url[4]);
                     break;
 
                 case 4:
                     // Controller->Method(Param1, Param2)
-                    $this->_controller->$url[1]($url[2],$url[3]);
+                    $this->_controller->{$url[1]}($url[2],$url[3]);
                     break;
 
                 case 3:
                     // Controller->Method(Param1)
-                    $this->_controller->$url[1]($url[2]);
+                    $this->_controller->{$url[1]}($url[2]);
                     break;
 
                 case 2:
                     // Controller->Method()
-                    $this->_controller->$url[1]();
+                    $this->_controller->{$url[1]}();
                     break;
 
                 default:

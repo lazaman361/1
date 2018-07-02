@@ -1,3 +1,17 @@
+## First of all, why did I model my website exactly like this?
+
+"Napraviti identifikaciju korisnika koristeci PHP, MySql i MVC design pattern, pritom ne koristeci PHP framework.
+
+Flow korisnika-a/akcija :
+- Korisnik otvori login stranicu.
+- Prikazuje mu se formu sa 2 opcije: Login & Register.
+- Ako je postojeci korisnik uloguj ga na "BO" a.k.a. Back Office web aplikacije.
+- Unutar BO ispisi Hello "user" i to je "home" tab u BO navigaciji.
+- Unutar BO postoji navigacija sa opcijama/akcijama: home, list all users, logout.
+- Klikom na tab desavaju se predvidjene akcije.
+- Na akciju "list all users" izlistaj sve registrovane korisnike po vremenu kreiranja korisnika.
+- Klikom na logout korisnik je izlogovan."
+
 ## Requirements (Windows/Linux)
 
 - **Wampserver 3.0.9**+ (http://www.wampserver.com/en/)

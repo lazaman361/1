@@ -1,11 +1,27 @@
 ## First of all, what was my goal here?
 
+**[English]**
+
+Make a user identification employing PHP, MySQL and MVC design pattern, without using PHP framework.
+
+User flow:
+- The user opens a login page.
+- A form with two options, Login & Register, is being shown.
+- If the user exists, do a login to BO (Back Office).
+- Inside of BO it says Hello "user" and that's the "home" tab in BO navigation.
+- Inside of BO there is a navigation with a couple of options: home, list all users, logout.
+- By clicking on each of the tabs, anticipated actions occur.
+- "list all users" lists all registered users by the time of registration.
+- By clicking on logout, the user is logged out.
+
+**[Serbian/Srpski]**
+
 Napraviti identifikaciju korisnika koristeci PHP, MySql i MVC design pattern, pritom ne koristeci PHP framework.
 
 Flow korisnika:
 - Korisnik otvori login stranicu.
-- Prikazuje mu se forma sa 2 opcije: Login & Register.
-- Ako je postojeci korisnik uloguj ga na "BO" a.k.a. Back Office web aplikacije.
+- Prikazuje mu se forma sa dve opcije: Login & Register.
+- Ako je postojeci korisnik uloguj ga na "BO" (Back Office) web aplikacije.
 - Unutar BO ispisi Hello "user" i to je "home" tab u BO navigaciji.
 - Unutar BO postoji navigacija sa opcijama/akcijama: home, list all users, logout.
 - Klikom na tab desavaju se predvidjene akcije.
